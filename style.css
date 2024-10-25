@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://img.freepik.com/premium-vector/online-doctor-appointment-concept-with-people-scene-flat-cartoon-design_198565-6255.jpg'); /* Replace with your image URL or local path */
+  background-size: cover; /* This makes the image cover the entire background */
+  background-position: center;
+  background-color: #f4f4f4;
+  height:100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+
+p {
+  text-align: center;
+  margin-top: 15px;
+}
